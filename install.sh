@@ -23,9 +23,10 @@ mkdir -p ~/.local/share/fonts
 cp "$TEMP_DIR/$FONT_DIR"/*.ttf ~/.local/share/fonts/
 
 # Update font cache
-fc-cache -fv
+# fc-cache -fv
 
 # Clean up
 rm -rf "$TEMP_DIR"
 
 echo "JetBrains Mono Nerd Font installed and font cache updated."
+echo "Please! Restart your terminal to update your fonts ..."
